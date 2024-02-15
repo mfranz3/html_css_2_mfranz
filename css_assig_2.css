@@ -1,0 +1,47 @@
+body{
+    background-color:gray;
+    /* below-putting everything into a new font and setting the 'default'
+     * font size to 14px */
+    font-family:"Courier New";
+    font-size: 14px;
+    }
+ section{
+    background-color:white;
+    /* giving each section a border  */
+    border-style:solid;
+    /* padding the border so that the text isn't right up against it */
+    padding: 0.75rem;
+    /* putting "margins" above and below each border. without this part, 
+     * each box will just touch the ones before/after it */
+    margin-top: 10px;
+    margin-bottom: 10px;
+    } 
+    
+.one{
+    /* setting the background color for just the first section.
+     * I used a hex code that I got from google */
+    background-color:#CBC3E3;
+    }
+h1{
+    /* underlined the main title */
+    text-decoration: underline;
+    /* i know this is ridicously big, but just did it for fun.
+     * also, 'overriding' the default font size from above so that 
+     * the main title will be really large */
+    font-size: 50px;
+    /* want the main title to be centered */
+    text-align: center;
+    }
+h2{
+    text-decoration: underline;
+    font-size:35px;
+    }
+/* colors below are just set from the last HW assignment */
+.orange{background-color:orange;}
+.red{background-color:red;}
+.blue{background-color:aqua;}
+/* i know this code below makes the whole box pink. I didn't want each neon color
+ * to be done seperately so i just made all the text (not the whole section)
+ * a neon pink. This probably isn't the best way to represent it if i 
+ * was actually doing legit research  */
+.second{background-color:#FF10F0;}
